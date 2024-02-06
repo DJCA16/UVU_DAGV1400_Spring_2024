@@ -1,7 +1,6 @@
-﻿using System;
-
+﻿using
 public class Program
-{
+    {
     public static void Main()
     {
         Console.WriteLine("What is the current temperature in degrees Celsius?: ");
@@ -27,23 +26,27 @@ public class Program
 
     public static void ExamGrade(int grade)
     {
-        if (grade >= 90) {
+        if (grade >= 90)
+        {
             Console.WriteLine("You have an A!");
         }
         else if (grade >= 80 && grade <= 89)
         {
             Console.WriteLine("You have a B!");
-        }else if (grade >= 70 && grade <= 79)
+        }
+        else if (grade >= 70 && grade <= 79)
         {
             Console.WriteLine("You have a C!");
-        }else if (grade >= 60 && grade <= 69)
+        }
+        else if (grade >= 60 && grade <= 69)
         {
             Console.WriteLine("You have a D!");
-        }else
+        }
+        else
         {
             Console.WriteLine("You have an F");
         }
-        
+
 
     }
-}    
+}
