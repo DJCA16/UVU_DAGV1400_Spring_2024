@@ -28,10 +28,12 @@ public class PlayerController : MonoBehaviour
         {
             Instantiate(lazerBolt, blaster.transform.position, lazerBolt.transform.rotation);
         }
-        
     }
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
+        {
+            Destroy(other.gameObject);
+        }
     }
+    
 }
